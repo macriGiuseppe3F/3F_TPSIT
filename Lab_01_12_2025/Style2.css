@@ -1,0 +1,29 @@
+body {
+    font-family: Verdana;
+    background-color: #7ce0ff;
+    padding: 20px;
+}
+
+h2 {
+    color: #444;
+}
+
+p {
+    font-size: 18px;
+}
+
+ul {
+    background: #e7e7e7;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.back {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.back:hover {
+    text-decoration: underline;
+}

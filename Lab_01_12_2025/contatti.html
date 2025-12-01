@@ -5,3 +5,39 @@ Un campo di testo per il Nome (usa <input type="text">).
 Un campo di testo per l'Email (usa <input type="email">).
 Un'area di testo (usa <textarea>) per il Messaggio.
 Un pulsante di invio (usa <input type="submit">)-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Modulo di Contatto</title>
+</head>
+<body>
+    <link rel="stylesheet" href="Style3.css">
+
+    <h2>Modulo di Contatto</h2>
+
+    <form>
+
+        <label>Giuseppe:</label><br>
+        <input type="text" name="nome"><br><br>
+
+        <label>Email: macri.giuseppe.2023@itisgalileiroma.it</label><br>
+        <input type="email" name="email"><br><br>
+
+        <label>Messaggio:</label><br>
+        <textarea name="messaggio"></textarea><br><br>
+
+        <label>Nota (sola lettura):</label><br>
+        <textarea readonly>Questo campo è di sola lettura.</textarea><br><br>
+
+        <input type="submit" value="Invia">
+
+    </form>
+
+    <p>
+        <a href="index.html">Torna alla pagina principale</a>
+    </p>
+
+</body>
+</html>
