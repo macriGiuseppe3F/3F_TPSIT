@@ -1,50 +1,95 @@
+/* Stile generale */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
     margin: 0;
-    padding: 10px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #ffffff;
 }
 
-h1 {
+/* Header */
+header {
+    background-color: #1e3a5f;
+    color: white;
     text-align: center;
+    padding: 20px;
 }
 
-/* Contenitore principale */
-#container {
+header p {
+    margin: 5px 0 0;
+    font-size: 14px;
+}
+
+/* Layout principale */
+#layout {
     width: 100%;
+    margin-top: 10px;
 }
 
 /* Iframe menu */
 #menu {
-    width: 25%;
-    height: 400px;
+    width: 22%;
+    height: 420px;
     float: left;
-    border: 2px solid #333;
-    background-color: #e0e0e0;
+    border: none;
+    background-color: #2c4f7c;
 }
 
 /* Iframe contenuto */
 #contenuto {
-    width: 70%;
-    height: 400px;
+    width: 75%;
+    height: 420px;
     float: right;
-    border: 2px solid #333;
-    background-color: #ffffff;
+    border: none;
+    background-color: white;
 }
 
-/* Stile menu */
+/* Menu */
 .menu {
-    padding: 10px;
+    padding: 20px;
+    color: white;
+}
+
+.menu h2 {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .menu a {
     display: block;
-    margin: 10px 0;
+    padding: 12px;
+    margin-bottom: 10px;
+    background-color: #3b6aa0;
+    color: white;
     text-decoration: none;
-    color: #000;
-    font-weight: bold;
+    border-radius: 6px;
+    text-align: center;
+    transition: background-color 0.3s;
 }
 
 .menu a:hover {
-    color: #0077cc;
+    background-color: #5fa8ff;
 }
+
+/* Pagine interne */
+.pagina {
+    padding: 30px;
+}
+
+.pagina h2 {
+    color: #1e3a5f;
+}
+
+.pagina p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    clear: both;
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 13px;
+}
+
