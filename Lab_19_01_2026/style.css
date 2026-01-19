@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Contenitore principale */
+#container {
+    width: 100%;
+}
+
+/* Iframe menu */
+#menu {
+    width: 25%;
+    height: 400px;
+    float: left;
+    border: 2px solid #333;
+    background-color: #e0e0e0;
+}
+
+/* Iframe contenuto */
+#contenuto {
+    width: 70%;
+    height: 400px;
+    float: right;
+    border: 2px solid #333;
+    background-color: #ffffff;
+}
+
+/* Stile menu */
+.menu {
+    padding: 10px;
+}
+
+.menu a {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #0077cc;
+}
